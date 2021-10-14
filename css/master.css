@@ -1,22 +1,31 @@
-#stcroix_beach {
-  width:70%;
-  display:block;
+#div1 {
+  background-color: red;
+  color: blue;
+  height: 100px;
+  width: 300px;
   margin: auto;
 }
 
-#stcroix_water {
-  width: 70%;
-  display: block;
-  margin: auto;
+#div2 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: inherit;
 }
 
-#moko_jumbie {
-  width: 70%;
-  display: block;
-  margin: auto;
+#div3 {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: inherit;
 }
 
-#parade_dancers {
-  width: 70%;
-  display: block;
-  margin: auto;
+#div4 {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: inherit;
+}
