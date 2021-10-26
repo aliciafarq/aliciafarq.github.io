@@ -44,7 +44,6 @@ footer {
 .header_left img {
   width: 70%;
   padding: 0px;
-
 }
 
 h5
@@ -62,19 +61,26 @@ float: left;
 width: 60%;
 float: right;
 font-size: 11pt;
+padding-top: 0px;
 }
 
 .footer_right h5 {
   font-family: 'Pacifico', cursive;
+  color: rgb(120, 77, 19);
+
 }
 
 section h2 {
   text-align: center;
-  color: rgb(217, 150, 62);
+  color: rgb(120, 77, 19);
   font-family: 'Pacifico', cursive;
   font-size: 55px;
+  text-decoration: overline underline;
+  text-decoration-color: rgb(217, 150, 62);
   padding-top: 10px;
-  background-image: url();
+  background-image: url(https://images.unsplash.com/photo-1602536052359-ef94c21c5948?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2787&q=80);
+  background-size: 50%;
+  background-image opacity: 30%;
 }
 
 .navbar {
