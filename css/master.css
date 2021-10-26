@@ -20,11 +20,13 @@ header {
 .header_left {
 float: left;
 font-family: 'Pacifico', cursive;
+width: 20%;
 }
 
 .header_right{
 float: right;
 text-align: right;
+width: 45%;
 }
 
 main {
@@ -36,11 +38,13 @@ footer {
   background-color: rgb(217, 150, 62);
   color: white;
   overflow: auto;
-  padding: 70px;
+  padding: 20px;
 }
 
-main img {
+.header_left img {
   width: 100%;
+  padding: 0px;
+
 }
 
 h5
@@ -67,14 +71,17 @@ font-size: 11pt;
 section h2 {
   text-align: center;
   color: rgb(217, 150, 62);
-  font-family: 'Urbanist', sans-serif;
-  padding-top: 30px;
+  font-family: 'Pacifico', cursive;
+  font-size: 55px;
+  padding-top: 10px;
+  background-image: url();
 }
 
 .navbar {
   list-style-type: none;
   padding-bottom: 0px;
   cursor: pointer;
+  text-align: center;
 
 }
 
