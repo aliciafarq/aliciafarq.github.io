@@ -1,31 +1,90 @@
-#div1 {
-  background-color: red;
-  color: blue;
-  height: 100px;
-  width: 300px;
-  margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Urbanist:wght@100&display=swap');
+
+* {
+  margin: 0;
 }
 
-#div2 {
-  background-color: blue;
-  height: 100px;
-  width: 100px;
-  display: inline-block;
-  margin: inherit;
+body {
+font-family: 'Urbanist', sans-serif;
 }
 
-#div3 {
-  background-color: green;
-  height: 100px;
-  width: 100px;
-  display: inline-block;
-  margin: inherit;
+header {
+  background-color: rgb(217, 150, 62);
+  color: white;
+  overflow:auto;
+  padding: 40px;
 }
 
-#div4 {
-  background-color: yellow;
-  height: 100px;
-  width: 100px;
+.header_left {
+float: left;
+font-family: 'Pacifico', cursive;
+}
+
+.header_right{
+float: right;
+text-align: right;
+}
+
+main {
+  clear: both;
+  height: 600px;
+}
+
+footer {
+  background-color: rgb(217, 150, 62);
+  color: white;
+  overflow: auto;
+  padding: 70px;
+}
+
+main img {
+  width: 100%;
+}
+
+h5
+{
+  font-size: 15pt;
+  margin-bottom: 10px;
+}
+
+.footer_left {
+width: 30%;
+float: left;
+}
+
+.footer_right {
+width: 60%;
+float: right;
+font-size: 11pt;
+}
+
+.footer_right h5 {
+  font-family: 'Pacifico', cursive;
+}
+
+section h2 {
+  text-align: center;
+  color: rgb(217, 150, 62);
+  font-family: 'Urbanist', sans-serif;
+  padding-top: 30px;
+}
+
+.navbar {
+  list-style-type: none;
+  padding-bottom: 0px;
+  cursor: pointer;
+
+}
+
+.navbar li {
   display: inline-block;
-  margin: inherit;
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-top: 20px;
+}
+
+.navbar li:hover {
+  color: rgb(217, 150, 62);
 }
