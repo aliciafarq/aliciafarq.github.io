@@ -95,7 +95,6 @@ padding-top: 0px;
 }
 
 section h2 {
-  text-align: center;
   color: rgb(120, 77, 19);
   font-family: 'Urbanist', sans-serif;
   letter-spacing: 4px;
@@ -105,11 +104,37 @@ section h2 {
   margin: auto;
   padding-bottom: 5px;
   padding: 10px;
+  display: inline;
 }
 
 .subheader {
   background-color: rgb(242, 200, 165);
   background-size: 50%;
   background-image opacity: 30%;
+  text-align: center;
   border-bottom: 3px dotted rgb(120, 77, 19);
+}
+
+.intro {
+  float: right;
+  width: 70%;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.hello {
+  font-size: 50pt;
+  font-family: 'Pacifico', cursive;
+  color: rgb(217, 150, 62);
+  padding-right: 25px;
+}
+
+.skills {
+  float: right;
+  width: 70%;
+}
+
+.interests {
+  float: right;
+  width: 70%;
 }
