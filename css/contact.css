@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Urbanist:wght@100&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+font-family: 'Urbanist', sans-serif;
+}
+
+header {
+  background-color: rgb(217, 150, 62);
+  color: white;
+  overflow:auto;
+  padding: 40px;
+  border-bottom: 3px dotted rgb(120, 77, 19);
+}
+
+.header_left {
+float: left;
+font-family: 'Pacifico', cursive;
+width: 20%;
+}
+
+.header_right{
+text-align: center;
+width: 45%;
+}
+
+.header_left img {
+  width: 50%;
+  padding: 0px;
+}
+
+.navbar {
+  list-style-type: none;
+  padding-bottom: 0px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13pt;
+}
+
+.navbar li {
+  display: inline-block;
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-top: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: rgb(120, 77, 19);
+}
+
+main {
+  clear: both;
+  height: 1000px;
+}
+
+footer {
+  background-color: rgb(217, 150, 62);
+  color: white;
+  overflow: auto;
+  padding-top: 5px;
+}
+
+h5
+{
+  font-size: 15pt;
+  margin-bottom: 10px;
+}
+
+.footer_left {
+width: 30%;
+float: left;
+padding-top: 150px;
+}
+
+.footer_right {
+width: 60%;
+float: right;
+font-size: 11pt;
+padding-top: 0px;
+}
+
+.footer_right h5 {
+  font-family: 'Pacifico', cursive;
+  color: rgb(120, 77, 19);
+}
+
+section h2 {
+  color: rgb(120, 77, 19);
+  font-family: 'Urbanist', sans-serif;
+  letter-spacing: 4px;
+  font-size: 55px;
+  padding-top: 5px;
+  width: 230px;
+  margin: auto;
+  padding-bottom: 5px;
+  padding: 10px;
+  display: inline;
+}
+
+.subheader {
+  background-color: rgb(242, 200, 165);
+  background-size: 50%;
+  background-image opacity: 30%;
+  text-align: center;
+  border-bottom: 3px dotted rgb(120, 77, 19);
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+#form_title {
+  text-align: center;
+}
+
+.mail {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.insta {
+  padding-top: 20px;
+  padding-right: 20px;
+}
