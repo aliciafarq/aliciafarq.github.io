@@ -138,3 +138,29 @@ section h2 {
   float: right;
   width: 70%;
 }
+
+.coffee {
+  padding: 20px;
+}
+
+.holidays {
+  padding: 20px;
+}
+
+.music {
+  padding: 20px;
+}
+
+.pizza {
+  padding: 20px;
+}
+
+.captions {
+  list-style: none;
+  display: inline-flex;
+  
+}
+
+.interests_captions {
+
+}
