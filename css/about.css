@@ -61,6 +61,7 @@ width: 45%;
 main {
   clear: both;
   height: 1000px;
+  padding-top: 50px;
 }
 
 footer {
@@ -113,11 +114,12 @@ section h2 {
   background-image opacity: 30%;
   text-align: center;
   border-bottom: 3px dotted rgb(120, 77, 19);
+
 }
 
 .intro {
   float: right;
-  width: 70%;
+  width: 60%;
   padding-right: 20px;
   padding-top: 20px;
 }
@@ -180,7 +182,8 @@ body {
   /* background-color: yellow; */
 }
 
-body p {
+.intro {
+
   transform: translatey(0px);
   animation: float 5s ease-in-out infinite;
   mix-blend-mode: multiply;
@@ -198,7 +201,7 @@ body p {
   font-family: "Baloo 2", cursive;
   // border: 1px solid rgb(120, 77, 19);
 }
-body p:after {
+.intro:after {
   transform: translatey(0px);
   animation: float2 5s ease-in-out infinite;
   content: ".";
