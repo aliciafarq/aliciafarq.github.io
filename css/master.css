@@ -11,7 +11,7 @@ font-family: 'Urbanist', sans-serif;
 }
 
 header {
-  background-color: rgb(217, 150, 62);
+  /* background-color: rgb(217, 150, 62); */
   color: white;
   /* overflow:auto; */
   padding: 30px;
@@ -114,4 +114,20 @@ padding-top: 10px;
 
 .navbar li a:hover {
   color: rgb(120, 77, 19);
+}
+
+img {
+  padding: 50px;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
