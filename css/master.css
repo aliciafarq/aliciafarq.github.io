@@ -97,6 +97,9 @@ padding-top: 10px;
   text-align: center;
   font-size: 13pt;
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .navbar li {
@@ -104,7 +107,7 @@ padding-top: 10px;
   padding-left: 85px;
   padding-right: 85px;
   padding-top: 20px;
-
+  width: 50%;
 }
 
 .navbar a {
@@ -131,4 +134,8 @@ img {
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.site_header {
+
 }

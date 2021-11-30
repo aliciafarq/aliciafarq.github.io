@@ -60,7 +60,7 @@ width: 45%;
 
 main {
   clear: both;
-  height: 1000px;
+  /* height: 1000px; */
 }
 
 footer {
@@ -121,12 +121,30 @@ section h2 {
   text-align: center;
 }
 
-.mail {
-  padding-top: 20px;
-  padding-right: 20px;
+.email {
+  /* padding-top: 20px;
+  padding-right: 20px; */
 }
 
 .insta {
-  padding-top: 20px;
-  padding-right: 20px;
+  /* padding-top: 20px;
+  padding-right: 20px; */
+}
+
+.contact_header {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.contact_header div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.contact_header img {
+  width: 10%;
+  margin: 20px;
 }
