@@ -143,18 +143,22 @@ section h2 {
 
 .coffee {
   padding: 20px;
+  width: 40pt;
 }
 
 .holidays {
   padding: 20px;
+  width: 60pt;
 }
 
 .music {
   padding: 20px;
+  width: 70pt;
 }
 
 .pizza {
   padding: 20px;
+  width: 50pt;
 }
 
 .captions {
