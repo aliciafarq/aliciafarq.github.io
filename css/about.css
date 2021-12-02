@@ -83,7 +83,9 @@ footer {
   background-color: rgb(217, 150, 62);
   color: white;
   overflow: auto;
-  padding-top: 5px;
+  /* padding-top: 5px; */
+  font-family: 'Urbanist', sans-serif;
+  /* margin-top: 100px; */
 }
 
 h5
@@ -95,19 +97,24 @@ h5
 .footer_left {
 width: 30%;
 float: left;
-padding-top: 150px;
+margin-top: 50px;
+margin-left: 20px;
+/* padding-top: 150px; */
 }
 
 .footer_right {
 width: 60%;
 float: right;
 font-size: 11pt;
-padding-top: 0px;
+margin-bottom: 20px;
+/* padding-top: 0px; */
+/* margin: inherit; */
 }
 
 .footer_right h5 {
   font-family: 'Pacifico', cursive;
   color: rgb(120, 77, 19);
+  margin-top: 20px;
 }
 
 section h2 {
@@ -318,4 +325,15 @@ body {
     line-height: 30px;
     transform: translatey(0px);
   }
+}
+
+.contact_link {
+  padding-bottom: 0px;
+  cursor: pointer;
+  font-family: 'Urbanist', sans-serif;
+  color: white;
+}
+
+.contact_link:hover {
+  color: rgb(120, 77, 19);
 }
