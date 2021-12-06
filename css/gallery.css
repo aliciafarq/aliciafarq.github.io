@@ -195,17 +195,41 @@ width: 45%;
 main {
   clear: both;
   /* height: 1000px; */
-  padding-top: 50px;
+  padding-top: 75px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100%;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+  min-height: 100vh; /* will cover the 100% of viewport */
+   /* overflow: hidden; */
+   display: block;
+   position: relative;
+   padding-bottom: 100px; /* height of your footer */
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: rgb(217, 150, 62);
   color: white;
   overflow: auto;
   /* padding-top: 5px; */
   font-family: 'Urbanist', sans-serif;
-  margin-top: 100px;
+  /* height: 2.5rem;            /* Footer height */
 }
+
+}
+/* footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+} */
 
 h5
 {
@@ -226,7 +250,6 @@ width: 60%;
 float: right;
 font-size: 11pt;
 margin-bottom: 20px;
-
 /* padding-top: 0px; */
 /* margin: inherit; */
 }
@@ -256,7 +279,7 @@ section h2 {
   background-image opacity: 30%;
   text-align: center;
   border-bottom: 3px dotted rgb(120, 77, 19);
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 
 }
 
@@ -269,4 +292,8 @@ section h2 {
 
 .contact_link:hover {
   color: rgb(120, 77, 19);
+}
+
+#carouselExampleFade {
+  margin-bottom: 75px;
 }
