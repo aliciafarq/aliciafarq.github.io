@@ -148,8 +148,12 @@ section h2 {
   padding-top: 20px;
 }
 
+.intro p {
+  font-size: 1.2em;
+}
+
 .hello {
-  font-size: 50pt;
+  font-size: 55pt;
   font-family: 'Pacifico', cursive;
   color: rgb(217, 150, 62);
   padding-right: 25px;
@@ -159,13 +163,15 @@ section h2 {
   clear: both;
   width: 70%;
   margin: 30px auto;
-  box-shadow:2px 2px 1px 1px rgba(242, 200, 165, 0.5);
-  border:
+  box-shadow:5px 5px 1px 1px rgba(242, 200, 165, 0.5);
+  border: 1px solid rgb(120, 77, 19);
   padding: 20px;
 }
 
 .skills h3 {
   text-align: center;
+  font-size: 1.75em;
+  padding-bottom: 10px;
 }
 
 .interests {

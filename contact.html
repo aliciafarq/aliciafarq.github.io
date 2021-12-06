@@ -38,61 +38,63 @@
     <main>
 
     <section class="contact_header">
-      <div class="">
-        <img src="./assets/PNG/email.png" alt="email_icon" class="mail" <caption class="email">aliciafarq1@gmail.com</caption>
+      <div class="mail">
+        <img src="./assets/PNG/email.png" alt="email_icon" class="mail" class="email">aliciafarq1@gmail.com</caption>
 
       </div>
-      <div class="">
+      <!-- <div class="">
         <img src="./assets/PNG/instagram.png" alt="insta_icon" class="insta" <caption class="instagram">instagram_handle</caption>
 
-      </div>
+      </div> -->
 
 
     </section>
 
-      <section>
-        <h1 id="form_title" class="bold_text">Design Brief</h1>
+      <section class="design_brief">
+        <h1 id="form_title">Design Brief</h1> <br>
         <form action="index.html" method="post" target="_blank">
           <fieldset>
             <legend>Client Information</legend>
-            <input type="text" name="first_name"/>
             <label for="first_name">First Name</label>
+            <input type="text" name="first_name"/>
+
             <br>
-            <input type="text" name="last_name"/>
             <label for="last_name">Last Name</label>
+
+            <input type="text" name="last_name"/>
             <br> <br>
             <label for="birthday">Date of Birth</label> <br>
-              <input type="date" name="birthday"/>
+              <input type="date" class="birthday" name="birthday"/>
               <br><br>
           </fieldset>
           <br>
 
-          <label for="perfect_day">What would you like to be designed for you?</label> <br>
-            <textarea name="perfect_day" rows="5" cols="50"> I would like...</textarea>
+          <label for="objective">What would you like to be designed for you?</label> <br>
+            <textarea name="objective" rows="5" cols="50"> I would like...</textarea>
             <br><br>
 
 
 
-          <label for="perfect_day">What does your company do?</label> <br>
-            <textarea name="perfect_day" rows="5" cols="50"> We...</textarea>
+          <label for="company">What does your company do?</label> <br>
+            <textarea name="company" rows="5" cols="50"> We...</textarea>
             <br><br>
 
 
 
-          <label for="perfect_day">What is your target audience?</label> <br>
-            <textarea name="perfect_day" rows="5" cols="50">We are trying to target...</textarea>
+          <label for="audience">What is your target audience?</label> <br>
+            <textarea name="audience" rows="5" cols="50">We are trying to target...</textarea>
             <br><br>
 
-            <label for="perfect_day">Explain your vision and let me know your budget.</label> <br>
-              <textarea name="perfect_day" rows="5" cols="50">I am invisioning... and my budget is $...</textarea>
-              <br><br>
+            <label for="vision">Explain your vision and let me know your budget.</label> <br>
+              <textarea name="vision" rows="5" cols="50">I am envisioning... and my budget is $...</textarea>
+              <br><br> <br><br>
 
 
 
 
 
-            <input type="submit" name="submit"/>
-            <input type="reset" name="reset"/>
+            <input class="submit" type="submit" name="submit"/>
+            <input class="reset" type="reset" name="reset"/>
 
 
         </form>
