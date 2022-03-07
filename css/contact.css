@@ -80,12 +80,15 @@ main {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: rgb(217, 150, 62);
   color: white;
   overflow: auto;
   /* padding-top: 5px; */
   font-family: 'Urbanist', sans-serif;
-  margin-top: 100px;
+  /* height: 2.5rem;            /* Footer height */
 }
 
 h5
