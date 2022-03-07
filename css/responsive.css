@@ -4,7 +4,7 @@
   }
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:600px) {
   .interests_column div {
 
     width: 35%;
@@ -23,5 +23,8 @@
   .navbar {
     align-items: center;
     flex-direction: column;
+    padding-left: 0;
   }
+
+
 }
