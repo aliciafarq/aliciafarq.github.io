@@ -1,58 +1,51 @@
-// <script>
-// $(window).scroll(function() {
-//     $('.fade-in').each(function() {
-//         var top_of_element = $(this).offset().top;
-//         var bottom_of_element = $(this).offset().top + $(this).outerHeight();
-//         var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
-//         var top_of_screen = $(window).scrollTop();
-//
-//         if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element) && !$(this).hasClass('is-visible')) {
-//             $(this).addClass('is-visible');
-//         }
-//     });
-// });
-// </script>
+(function($) {
 
-// $(document).on("scroll", function() {
-//   var pageTop = $(document).scrollTop();
-//   var pageBottom = pageTop + $(window).height();
-//   var tags = $(".tag");
-//
-//   for (var i = 0; i < tags.length; i++) {
-//     var tag = tags[i];
-//
-//     if ($(tag).position().top < pageBottom) {
-//       $(tag).addClass("visible");
-//     } else {
-//       $(tag).removeClass("visible");
-//     }
-//   }
-// });
+  /**
+   * Copyright 2012, Digital Fusion
+   * Licensed under the MIT license.
+   * http://teamdf.com/jquery-plugins/license/
+   *
+   * @author Sam Sehnert
+   * @desc A small plugin that checks whether elements are within
+   *     the user visible viewport of a web browser.
+   *     only accounts for vertical position, not horizontal.
+   */
 
-// $(function(){  // $(document).ready shorthand
-//   $('.monster').fadeIn('slow');
-// });
+  $.fn.visible = function(partial) {
 
-$(document).ready(function() {
+      var $t            = $(this),
+          $w            = $(window),
+          viewTop       = $w.scrollTop(),
+          viewBottom    = viewTop + $w.height(),
+          _top          = $t.offset().top,
+          _bottom       = _top + $t.height(),
+          compareTop    = partial === true ? _bottom : _top,
+          compareBottom = partial === true ? _top : _bottom;
 
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
+    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
 
-        /* Check the location of each desired element */
-        $('.hideme').each( function(i){
+  };
 
-            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
+})(jQuery);
 
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
+var win = $(window);
 
-                $(this).animate({'opacity':'1'},1500);
+var allMods = $(".module");
 
-            }
+allMods.each(function(i, el) {
+  var el = $(el);
+  if (el.visible(true)) {
+    el.addClass("already-visible");
+  }
+});
 
-        });
+win.scroll(function(event) {
 
-    });
+  allMods.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("come-in");
+    }
+  });
 
 });
