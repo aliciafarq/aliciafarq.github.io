@@ -22,12 +22,17 @@
 
   .navbar li {
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     padding-left: 0;
-    /* display: block; */
+    display: grid;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
+    /* display: flex; */
+    display: inline-grid;
   }
+
+
 
 
 }
