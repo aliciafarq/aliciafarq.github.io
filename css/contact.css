@@ -22,8 +22,8 @@ header {
 }
 
 nav {
-  text-align: right;
-  width: 45%;
+  /* text-align: right; */
+  /* width: 45%; */
 }
 
 nav ul {
@@ -51,7 +51,7 @@ width: 45%;
   list-style-type: none;
   padding-bottom: 0px;
   cursor: pointer;
-  text-align: right;
+  text-align: center;
   font-size: 13pt;
   display: flex;
   flex-direction: column;
