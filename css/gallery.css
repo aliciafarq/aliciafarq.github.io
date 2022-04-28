@@ -42,6 +42,7 @@
 
  body {
 font-family: 'Urbanist', sans-serif;
+
 }
 
 header {
@@ -174,6 +175,7 @@ margin-bottom: 20px; */
   padding-bottom: 5px;
   padding: 10px;
   display: inline;
+
 }
 
 .subheader {
@@ -187,7 +189,8 @@ margin-bottom: 20px; */
   color: rgb(120, 77, 19);
   font-size: 55px;
   letter-spacing: 4px;
-
+  padding: 5px;
+}
 
 
 /* }
@@ -210,9 +213,12 @@ span {
 /* } */
 
 h2 {
-  font-family: 'Pacifico', cursive;
-  font-size: 20pt;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 75pt;
   color: rgb(217, 150, 62);
+  font-weight: bolder;
+  margin: 5px;
+  margin-top: 10px;
 
   text-align: center;
 }
